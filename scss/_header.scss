@@ -4,6 +4,7 @@
 .header {
     background-color: $bg-c;
     padding: 15px 7vw;
+    border-bottom: 1px solid $border;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,5 +38,11 @@
         #bars-btn {
             display: none;
         }
+    }
+    .search-form {
+        display: none;
+    }
+    .cart-items-container {
+        display: none;
     }
 }
