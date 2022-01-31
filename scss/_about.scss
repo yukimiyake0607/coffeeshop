@@ -1,0 +1,42 @@
+.about {
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .img-wrapper {
+            flex: 1 1 450px;
+            img {
+                width: 100%;
+            }
+        }
+        .content {
+            padding: 20px;
+            background-color: $bg-c;
+            flex: 1 1 450px;
+            &-title {
+                font-size: 3rem;
+                font-weight: bold;
+            }
+            &-text {
+                font-size: 1.6rem;
+                padding: 10px 0;
+                line-height: 1.8;
+                color: $text-c;
+                font-weight: lighter;
+            }
+            .btn {
+                display: inline-block;
+                padding: 9px 30px;
+                background-color: $sub-color;
+                font-size: 1.7rem;
+                font-weight: bold;
+                margin-top: 10px;
+                transition: .3s;
+                &:hover {
+                    letter-spacing: .25em;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}
