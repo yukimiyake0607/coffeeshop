@@ -1,0 +1,13 @@
+.btn {
+    background-color: $sub-color;
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: .3s;
+    &:hover {
+        transition: .3s;
+        letter-spacing: .25em;
+    }
+}
