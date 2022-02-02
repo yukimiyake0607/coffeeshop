@@ -8,6 +8,17 @@
         border: 1px solid $border;
         font-family: 'Roboto', sans-serif;
     }
+    &__item_bg_white {
+        transition: .3s;
+        &:hover {
+            background-color: #fff;
+            color: $bg-c;
+            transition: .3s;
+        }
+    }
+    &__item_padding {
+        padding: 20px;
+    }
     &__title {
         font-size: 2rem;
         padding: 10px 0;
@@ -21,6 +32,26 @@
             font-weight: lighter;
             font-size: 1.5rem;
             padding: 0 5px;
+        }
+    }
+    &__icons {
+        a {
+            height: 50px;
+            width: 50px;
+            font-size: 2rem;
+            line-height: 50px;
+            border: 1px solid $border;
+            margin: 3px;
+        }
+    }
+    &__img {
+        padding: 25px 0;
+    }
+    &__stars {
+        padding: 15px;
+        i {
+            font-size: 1.7rem;
+            color: $sub-color;
         }
     }
 }
