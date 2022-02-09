@@ -1,0 +1,50 @@
+.footer {
+    padding: 20px 7%;
+    text-align: center;
+    background-color: $black;
+    .share {
+        font-size: 2rem;
+        padding: 10px;
+        .fab {
+            border: 1px solid $border;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin: 3px;
+            line-height: 50px;
+            transition: 0.3s;
+            &:hover {
+                background-color: $sub-color;
+                transition: .3s;
+            }
+        }
+    }
+    .links {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 10px;
+        a {
+            font-size: 2rem;
+            padding: 7px 20px;
+            border: 1px solid $border;
+            text-transform: capitalize;
+            transition: .3s;
+            &:hover {
+                transition: .3s;
+                background-color: $sub-color;
+            }
+        }
+    }
+    .copy {
+        text-transform: capitalize;
+        font-size: 2rem;
+        padding: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        span {
+            color: $sub-color;
+        }
+    }
+}
