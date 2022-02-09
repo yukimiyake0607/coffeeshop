@@ -4,12 +4,23 @@
     grid-gap: 15px;
     &-item {
         border: 1px solid $border;
+        &:hover {
+            transition: .3s;
+            img {
+                transform: scale(1.2);
+                transition: .3s;
+            }
+        }
     }
     &__img-wrapper {
+        height: 250px;
+        width: 100%;
+        overflow: hidden;
         img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            transition: .3s;
         }
     }
     &__content {
